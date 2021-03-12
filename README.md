@@ -24,7 +24,7 @@ const { name, idade, turma } = {
     turma: 'B'
 };
 
-console.log(`O ${nome} tem ${idade} e é da turma ${turma});
+console.log(`O ${nome} tem ${idade} e é da turma ${turma}`);
 ```
 
 Existem dois tipos de destructuring: de arrays e objetos.
