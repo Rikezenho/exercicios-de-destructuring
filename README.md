@@ -1,4 +1,4 @@
-# Exercícios de Destructuring Assignmenet
+# Exercícios de Destructuring Assignment
 
 O destructuring é sem dúvidas uma das minhas features favoritas do JavaScript. Ele chegou oficialmente no ECMAScript 2015, vulgo ES6. Aqui, faço uma breve explicação do recurso (se quiser uma COMPLETA, [podes recorrer ao sempre completo artigo oficial no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)), que serve para "extrair" valores de objetos ou arrays (sendo eles explícitos, ou sendo retorno de alguma função).
 
