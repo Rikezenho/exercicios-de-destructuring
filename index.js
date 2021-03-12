@@ -101,7 +101,7 @@
     idade: 30,
   };
   console.log(tempoAteHoje); // 30
-  console.log(idade); // undefined
+  console.log(idade); // Uncaught ReferenceError: idade is not defined
 }
 
 {
@@ -111,7 +111,7 @@
     email: "fulano.silva@gmail.com",
   };
   console.log(tempoAteHoje); // 30
-  console.log(idade); // undefined
+  console.log(idade); // Uncaught ReferenceError: idade is not defined
 }
 
 {
