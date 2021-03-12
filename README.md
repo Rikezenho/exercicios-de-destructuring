@@ -1,6 +1,10 @@
-# Exercícios de Destructuring Assignment
-
 O destructuring é sem dúvidas uma das minhas features favoritas do JavaScript. Ele chegou oficialmente no ECMAScript 2015, vulgo ES6. Aqui, faço uma breve explicação do recurso (se quiser uma COMPLETA, [podes recorrer ao sempre completo artigo oficial no MDN](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Reference/Operators/Destructuring_assignment)), que serve para "extrair" valores de objetos ou arrays (sendo eles explícitos, ou sendo retorno de alguma função).
+
+- [Casos de uso](#casos-de-uso)
+- [Destructuring Assignment com Arrays](#destructuring-assignment-com-arrays)
+- [Destructuring Assignment com Objetos](#destructuring-assignment-com-objetos)
+- [Destructuring Assignment de Arrays com Objetos, ou Objetos com Arrays](#destructuring-assignment-de-arrays-com-objetos-ou-objetos-com-arrays)
+- [Possíveis erros](#possíveis-erros)
 
 ## Casos de uso
 No front-end, é extremamente comum fazermos requisições GET para APIs que retornam a resposta em JSON. Sendo assim, o destructuring vira uma arma muito forte contra a repetição de códigos, bem como a favor da legibilidade e contra a verbosidade do seu código.
