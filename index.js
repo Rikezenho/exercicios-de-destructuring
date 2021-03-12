@@ -126,15 +126,6 @@
   console.log(nome, outrasPropriedades); // Fulano da Silva  { idade: 37, dataDeNascimento: "1993-06-20", criadoEm: "2020-12-06 00:32:00", email: "fulano.silva@gmail.com" }
 }
 
-{
-  // Extraindo funções de um módulo JavaScript
-  import React, { useState, useEffect } from "react";
-  const [counter, useCounter] = useState(0); // o mesmo que React.useState
-
-  const { join } = require("path");
-  join(__dirname, "pasta"); // o mesmo que path.join
-}
-
 /**
  * ============== Destructuring Assignment de Arrays com Objetos, ou Objetos com Arrays
  */

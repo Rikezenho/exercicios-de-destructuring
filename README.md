@@ -31,6 +31,15 @@ const { nome, idade, turma } = {
 console.log(`O ${nome} tem ${idade} anos e é da turma ${turma}`);
 ```
 
+Além disso, outro caso de uso bem comum é quando queremos extrair funções específicas de módulos JavaScript sem precisar referenciar o objeto principal, seja via `require` ou `import`.
+```js
+import React, { useState } from 'react';
+const [counter, useCounter] = useState(0); // o mesmo que React.useState
+
+const { join } = require('path');
+join(__dirname, 'pasta'); // o mesmo que path.join
+```
+
 Existem dois tipos de destructuring: de arrays e objetos.
 
 ## Destructuring Assignment com Arrays
@@ -170,15 +179,6 @@ const { nome, ...outrasPropriedades } = {
 console.log(nome, outrasPropriedades); // Fulano da Silva  { idade: 37, dataDeNascimento: "1993-06-20", criadoEm: "2020-12-06 00:32:00", email: "fulano.silva@gmail.com" }
 ```
 
-E por último, um caso bem comum de uso é quando você quer extrair apenas algumas propriedades ou funções de um módulo JavaScript:
-```js
-import React, { useState } from 'react';
-const [counter, useCounter] = useState(0); // o mesmo que React.useState
-
-const { join } = require('path');
-join(__dirname, 'pasta'); // o mesmo que path.join
-```
-
 ## Destructuring Assignment de Arrays com Objetos, ou Objetos com Arrays
 
 Agora que você já está craque no destructuring tanto de arrays quanto objetos, dá pra combinar os dois.
@@ -250,6 +250,8 @@ console.log(cepSecundario);
 ```
 
 ---
+
+> Todos os códigos deste guia se encontram no arquivo [index.js](index.js).
 
 E, com isso, acredito que você está apto a fazer todo tipo de destructuring!
 
