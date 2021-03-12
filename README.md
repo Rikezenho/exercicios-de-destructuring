@@ -154,6 +154,18 @@ console.log(tempoAteHoje); // 30
 console.log(idade); // undefined
 ```
 
+Lembra do uso do destructuring assignment com operador rest? Também dá pra usar com objetos!
+```js
+const { nome, ...outrasPropriedades } = {
+  nome: "Fulano da Silva",
+  idade: 37,
+  dataDeNascimento: "1993-06-20",
+  criadoEm: "2020-12-06 00:32:00",
+  email: "fulano.silva@gmail.com",
+};
+console.log(nome, outrasPropriedades); // Fulano da Silva  { idade: 37, dataDeNascimento: "1993-06-20", criadoEm: "2020-12-06 00:32:00", email: "fulano.silva@gmail.com" }
+```
+
 E por último, um caso bem comum de uso é quando você quer extrair apenas algumas propriedades ou funções de um módulo JavaScript:
 ```js
 import React, { useState } from 'react';
