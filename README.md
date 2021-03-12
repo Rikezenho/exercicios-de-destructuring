@@ -12,7 +12,7 @@ No front-end, é extremamente comum fazermos requisições GET para APIs que ret
 Digo isso por que, em vez de fazer isso:
 ```js
 const respostaDaApiRest = {
-    name: 'Primeiro aluno',
+    nome: 'Primeiro aluno',
     idade: 20,
     turma: 'B'
 };
@@ -22,8 +22,8 @@ console.log(`O ${respostaDaApiRest.nome} tem ${respostaDaApiRest.idade} anos e �
 
 Você pode simplificar para isso, com destructuring:
 ```js
-const { name, idade, turma } = {
-    name: 'Primeiro aluno',
+const { nome, idade, turma } = {
+    nome: 'Primeiro aluno',
     idade: 20,
     turma: 'B'
 };
