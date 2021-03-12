@@ -13,7 +13,7 @@ const respostaDaApiRest = {
     turma: 'B'
 };
 
-console.log(`O ${respostaDaApiRest.nome} tem ${respostaDaApiRest.idade} e é da turma ${respostaDaApiRest.turma});
+console.log(`O ${respostaDaApiRest.nome} tem ${respostaDaApiRest.idade} anos e é da turma ${respostaDaApiRest.turma});
 ```
 
 Você pode simplificar para isso, com destructuring:
@@ -24,7 +24,7 @@ const { name, idade, turma } = {
     turma: 'B'
 };
 
-console.log(`O ${nome} tem ${idade} e é da turma ${turma}`);
+console.log(`O ${nome} tem ${idade} anos e é da turma ${turma}`);
 ```
 
 Existem dois tipos de destructuring: de arrays e objetos.
