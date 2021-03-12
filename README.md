@@ -34,7 +34,7 @@ console.log(`O ${nome} tem ${idade} anos e é da turma ${turma}`);
 Existem dois tipos de destructuring: de arrays e objetos.
 
 ## Destructuring Assignment com Arrays
-Com arrays, a ordem dos valores é muito importante. Originalmente, sabemos que, ao manipular um array, nós utilizamos referências "index-based" (que começam em 0); falando em legibilidade de código, é muito ruim quando você vê um código e vê algo como "valor1", "funcao1", não é mesmo?
+Com arrays, a ordem dos valores é muito importante. Originalmente, sabemos que, ao manipular um array, nós utilizamos referências "index-based" (que começam em 0); falando em legibilidade de código, é muito ruim quando você vê um código e vê algo como "valores[1]", "funcoes[0]", não é mesmo?
 
 Então, graças ao destructuring assignment, você pode "extrair" valores de um array atribuindo o nome que você quiser (e assim ajudar na legibilidade).
 
