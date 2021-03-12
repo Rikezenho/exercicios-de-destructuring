@@ -210,3 +210,7 @@ if (!enderecoSecundario) {
 const { cep: cepSecundario } = enderecoSecundario;
 console.log(cepSecundario);
 ```
+
+E, com isso, acredito que você está apto a fazer todo tipo de destructuring!
+
+Sugestões, comentários ou observações, favor [abrir uma issue](https://github.com/Rikezenho/exercicios-de-destructuring/issues/new).
