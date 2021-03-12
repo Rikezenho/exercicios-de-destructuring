@@ -82,7 +82,7 @@
       ? "precisa trocar a senha."
       : "está com a senha atualizada."
   ); // Fulano da Silva  precisa trocar a senha.
-  console.log(propriedades); // undefined
+  console.log(propriedades); // Uncaught ReferenceError: propriedades is not defined
 }
   
 {

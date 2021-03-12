@@ -122,7 +122,7 @@ console.log(
     ? "precisa trocar a senha."
     : "está com a senha atualizada."
 ); // Fulano da Silva  precisa trocar a senha.
-console.log(propriedades); // undefined
+console.log(propriedades); // Uncaught ReferenceError: propriedades is not defined
 ```
 
 Assim como no de arrays, você também pode atribuir valores padrão:
@@ -141,7 +141,7 @@ const { idade: tempoAteHoje } = {
   idade: 30,
 };
 console.log(tempoAteHoje); // 30
-console.log(idade); // undefined
+console.log(idade); // Uncaught ReferenceError: idade is not defined
 ```
 
 Juntando os dois últimos conceitos (valor padrão e renaming), temos algo assim:
@@ -151,7 +151,7 @@ const { idade: tempoAteHoje = 30 } = {
   email: "fulano.silva@gmail.com",
 };
 console.log(tempoAteHoje); // 30
-console.log(idade); // undefined
+console.log(idade); // Uncaught ReferenceError: idade is not defined
 ```
 
 Lembra do uso do destructuring assignment com operador rest? Também dá pra usar com objetos!
