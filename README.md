@@ -5,6 +5,29 @@ O destructuring é sem dúvidas uma das minhas features favoritas do JavaScript.
 ## Casos de uso
 No front-end, é extremamente comum fazermos requisições GET para APIs que retornam a resposta em JSON. Sendo assim, o destructuring vira uma arma muito forte contra a repetição de códigos, bem como a favor da legibilidade e contra a verbosidade do seu código.
 
+Digo isso por que, em vez de fazer isso:
+```js
+const respostaDaApiRest = {
+    name: 'Primeiro aluno',
+    idade: 20,
+    turma: 'B'
+};
+
+console.log(`O ${respostaDaApiRest.nome} tem ${respostaDaApiRest.idade} e é da turma ${respostaDaApiRest.turma});
+```
+
+Você pode simplificar para isso, com destructuring:
+```js
+const { name, idade, turma } = {
+    name: 'Primeiro aluno',
+    idade: 20,
+    turma: 'B'
+};
+
+console.log(`O ${nome} tem ${idade} e é da turma ${turma});
+```
+```
+
 Existem dois tipos de destructuring: de arrays e objetos.
 
 ## Destructuring Assignment com Arrays
