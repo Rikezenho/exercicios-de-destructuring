@@ -5,6 +5,7 @@ O destructuring é sem dúvidas uma das minhas features favoritas do JavaScript.
 - [Destructuring Assignment com Objetos](#destructuring-assignment-com-objetos)
 - [Destructuring Assignment de Arrays com Objetos, ou Objetos com Arrays](#destructuring-assignment-de-arrays-com-objetos-ou-objetos-com-arrays)
 - [Possíveis erros](#possíveis-erros)
+- [Exercícios para praticar](#exercícios-para-praticar)
 
 ## Casos de uso
 No front-end, é extremamente comum fazermos requisições GET para APIs que retornam a resposta em JSON. Sendo assim, o destructuring vira uma arma muito forte contra a repetição de códigos, bem como a favor da legibilidade e contra a verbosidade do seu código.
@@ -248,6 +249,9 @@ if (!enderecoSecundario) {
 const { cep: cepSecundario } = enderecoSecundario;
 console.log(cepSecundario);
 ```
+
+## Exercícios para praticar
+Uma série de [exercícios com os conceitos descritos acima](./exercicios/README.md).
 
 ---
 
