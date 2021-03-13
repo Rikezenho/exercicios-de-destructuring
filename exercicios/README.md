@@ -4,6 +4,8 @@
 
 Tenha em mãos um terminal com NodeJS, ou abra o DevTools, JSBin, CodeSandbox, etc e pratique com os exercícios abaixo 😊
 
+**Dica:** Você pode isolar o escopo e evitar erros de variáveis com o mesmo nome simplesmente envolvendo o código de cada exercício com um bloco `{}`, usando chaves!
+
 ## Arrays
 - [01 - Destructuring simples de arrays](./arrays/01-simples/README.md)
 - [02 - Ignorando alguns elementos](./arrays/02-ignorando-elementos/README.md)
