@@ -18,6 +18,9 @@ const produto = {
 
 const fotos = produto.fotos;
 
+// Sem destructuring:
+const primeiraFotoSemDestructuring = typeof fotos[0] !== 'undefined' ? fotos[0] : 'https://via.placeholder.com/1500';
+
 // Inicie o destructuring na linha abaixo ->
 
 // <- Finalize o destructuring na linha acima
@@ -44,6 +47,9 @@ console.log(primeiraFoto);
   };
 
   const fotos = produto.fotos;
+
+  // Sem destructuring:
+  const primeiraFotoSemDestructuring = typeof fotos[0] !== 'undefined' ? fotos[0] : 'https://via.placeholder.com/1500';
 
   // Inicie o destructuring na linha abaixo ->
   const [primeiraFoto = 'https://via.placeholder.com/1500'] = fotos;

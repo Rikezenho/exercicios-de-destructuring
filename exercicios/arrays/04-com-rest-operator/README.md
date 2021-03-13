@@ -21,6 +21,10 @@ const produto = {
 
 const fotos = produto.fotos;
 
+// Sem destructuring:
+const fotoPrincipalSemDestructuring = fotos[0];
+const demaisFotosSemDestructuring = fotos.filter((item, index) => index > 0);
+
 // Inicie o destructuring na linha abaixo ->
 
 // <- Finalize o destructuring na linha acima
@@ -64,6 +68,10 @@ for (let i = 0; i < demaisFotos.length; i++) {
   };
 
   const fotos = produto.fotos;
+
+  // Sem destructuring:
+  const fotoPrincipalSemDestructuring = fotos[0];
+  const demaisFotosSemDestructuring = fotos.filter((item, index) => index > 0);
 
   // Inicie o destructuring na linha abaixo ->
   const [

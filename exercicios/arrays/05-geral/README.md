@@ -29,6 +29,10 @@ const produto = {
 
 const atributos = produto.atributos;
 
+// Sem destructuring:
+const atributoPrincipalSemDestructuring = atributos[0];
+const demaisAtributosSemDestructuring = atributos.filter((item, index) => index > 1);
+
 // Inicie o destructuring na linha abaixo ->
 
 // <- Finalize o destructuring na linha acima
@@ -76,6 +80,10 @@ for (let i = 0; i < demaisAtributos.length; i++) {
   };
 
   const atributos = produto.atributos;
+
+  // Sem destructuring:
+  const atributoPrincipalSemDestructuring = atributos[0];
+  const demaisAtributosSemDestructuring = atributos.filter((item, index) => index > 1);
 
   // Inicie o destructuring na linha abaixo ->
   const [

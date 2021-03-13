@@ -23,6 +23,10 @@ const produto = {
 
 const fotos = produto.fotos;
 
+// Sem destructuring:
+const segundaFotoSemDestructuring = fotos[1];
+const quintaFotoSemDestructuring = fotos[4];
+
 // Inicie o destructuring na linha abaixo ->
 
 // <- Finalize o destructuring na linha acima
@@ -59,6 +63,10 @@ console.log(quintaFoto);
   };
 
   const fotos = produto.fotos;
+  
+  // Sem destructuring:
+  const segundaFotoSemDestructuring = fotos[1];
+  const quintaFotoSemDestructuring = fotos[4];
 
   // Inicie o destructuring na linha abaixo ->
   const [ , segundaFoto, , , quintaFoto] = fotos;

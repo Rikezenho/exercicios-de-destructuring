@@ -20,6 +20,9 @@ const produto = {
 
 const fotos = produto.fotos;
 
+// Sem destructuring:
+const primeiraFotoSemDestructuring = fotos[0];
+
 // Inicie o destructuring na linha abaixo ->
 
 // <- Finalize o destructuring na linha acima
@@ -50,6 +53,9 @@ console.log(primeiraFoto);
   };
 
   const fotos = produto.fotos;
+
+  // Sem destructuring:
+  const primeiraFotoSemDestructuring = fotos[0];
 
   // Inicie o destructuring aqui ->
   const [primeiraFoto] = fotos;
