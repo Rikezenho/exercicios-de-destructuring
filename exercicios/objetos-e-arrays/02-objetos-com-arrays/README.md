@@ -18,6 +18,10 @@ const produto = {
   ]
 };
 
+// Sem destructuring:
+const nomeSemDestructuring = produto.nome;
+const primeiraFotoSemDestructuring = produto.fotos[0];
+
 // Inicie o destructuring na linha abaixo ->
 
 // <- Finalize o destructuring na linha acima
@@ -46,6 +50,10 @@ console.log(nome, primeiraFoto);
       'https://a-static.mlcdn.com.br/1500x1500/sabao-em-po-omo-lavagem-perfeita-concentrado-profissional-56kg/magazineluiza/224489500/0673a9868ac3ac7a075c3b75bcaa62a4.jpg'
     ]
   };
+  
+  // Sem destructuring:
+  const nomeSemDestructuring = produto.nome;
+  const primeiraFotoSemDestructuring = produto.fotos[0];
 
   // Inicie o destructuring na linha abaixo ->
   const {
